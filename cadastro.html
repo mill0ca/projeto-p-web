@@ -1,0 +1,126 @@
+<!-- terceira pag (cadastro e nos contate) -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylelogin.css" />
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <section class="menu-desktop">
+                <nav>
+                    <ul>
+                        <a href="index.html">Inicio</a>
+                        <a href="hobbies.html">Interesses</a>
+                        <a href="cadastro.html">Cadastro</a>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </header>
+
+  
+    <div class="container">
+        <div class="wrapper">
+            <form action="#">
+                <h2 id="titulo">Bem-vindo(a)!</h2>
+                <div class="input-field">
+                    <input type="text" required>
+                    <input type="text" id="nome" oninput="mostraAvisoUm()" required>
+                    <label>Digite seu email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" required>
+                    <input type="password" id="senha" oninput="mostraAvisoDois()" required>
+                    <label>Digite sua senha</label>
+                </div>
+                <div class="forget">
+                    <label for="lembrardemim">
+                        <input type="checkbox" id="lembrardemim"><p>Lembrar de mim</p>
+                    </label>
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+                <button type="submit">Login</button>
+                <div class="register">
+                    <p>
+                        Não tem uma conta?
+                        <a href="#">Cadastrar</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Projeto P web</h1>
+                <p>Entre em contato conosco!</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <ul class="footer-list">
+                <li>
+                    <h3>Integrantes</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Camilla herrera</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Amanda</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Ellie França</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Integrantes</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Marina</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Maria Eduarda</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Victoria gabrielly</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Contato</h3>
+
+                <p>
+                    Envie um email para projetopweb@contato.com ou 
+                    entre em contato pelas nossas redes sociais
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="login.js"></script>
+</html>
